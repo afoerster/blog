@@ -6,7 +6,7 @@ categories: kudu replication consensus
 
 ---
 
-The [Raft consensus protocol](https://raft.github.io/raft.pdf) is a protocol for creating replicated state machines. The state machines can be played from a log, where each record in the log is a command for the state machine. This log is replicated across multiple nodes. By replaying this log, the state machines can each reach the same state.
+The [Raft consensus protocol](https://raft.github.io/raft.pdf) is used to create replicated state machines. The state machines can be played from a log, where each record in the log is a command for the state machine. This log is replicated across multiple nodes. By replaying this log, the state machines can each reach the same state.
 
 Raft assumes a single leader. All requests are served through this leader. If a follower receives a request, it will route the request back to the leader. When a request is received by the leader, the leader appends records to its own log, then send append requests to followers.
 
