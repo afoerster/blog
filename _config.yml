@@ -16,7 +16,7 @@
 title: 
 email: anthonymfoerster@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-    This is my personal writings  where I talk about distributed systems and Scala
+    My personal notes about distributed systems, Scala, and other interesting things
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://afoerster.github.io/blog" 
 github_username:  afoerster
