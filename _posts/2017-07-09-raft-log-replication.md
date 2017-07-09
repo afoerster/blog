@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How Raft Log Replication Works"
+title:  "Raft Log Replication Simply"
 date:   2017-07-09 12:42:29 -0500
 categories: kudu replication consensus
 
