@@ -10,7 +10,7 @@ The [Raft consensus protocol](https://raft.github.io/raft.pdf) is used to create
 
 Raft assumes a single leader. All requests are served through this leader. If a follower receives a request, it will route the request back to the leader. When a request is received by the leader, the leader appends records to its own log, then send append requests to followers.
 
-Append request contains at least:
+The append request contains at least:
 - term number
 - previous log entry index
 - state machine command
